@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LANDING_PAGE</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">ShoeSite</div>
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cart-section">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Slideshow Section -->
+    <section id="home" class="slideshow">
+        <div class="slide" style="background-image: url('slide2.jpg');"></div>
+        <div class="slide" style="background-image: url('slide3.jpg');"></div>
+        <div class="slide" style="background-image: url('slide4.jpg');"></div>
+    </section>
+
+    <!-- Category Section -->
+    <section id="features" class="features-section">
+        <div class="feature-box">
+            <img src="formal.jpg" alt="Feature 1">
+            <h3>Formal Shoe</h3>
+            <p> Elegant, Aesthetics</p>
+        </div>
+        <div class="feature-box">
+            <img src="sports.jpg" alt="Feature 2">
+            <h3>Sports Shoe</h3>
+            <p>Athletic activities, Stability.</p>
+        </div>
+        <div class="feature-box">
+            <img src="sneakers.jpg" alt="Feature 3">
+            <h3>Sneakers</h3>
+            <p>Fashion-oriented footwear.</p>
+        </div>
+    </section>
+    <section id="about-contact" class="about-contact-section">
+        <!-- About Us Section -->
+        <div class="about">
+            <h2>About Us</h2>
+            <p>
+                <b><h3>Welcome to ShoeSite</h3></b><i>Your Go-To Destination for Men's Footwear!</i><br>
+                Hi, I'm Mr.Rohit , the founder of ShoeSite. Our mission is simple – to provide men with stylish,
+                comfortable, and high-quality footwear for every occasion.
+                At ShoeSite, we believe the right shoes should complement your style while offering all-day comfort.
+                From formal shoes to casual sneakers and boots, we handpick each pair for quality, design, and value.
+
+                Our goal is to make sure you always step out in style, with confidence and comfort. Thank you for
+                choosing ShoeSite, and we hope you find your perfect pair!
+                <br>
+                <h3>Happy shopping!</h3>
+            </p>
+        </div>
+
+        <!-- Contact Us Section -->
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <p>
+                Have any questions? We’re here to help! Reach out to us using the details below:
+            </p>
+            <ul>
+                <li><strong>Email:</strong> support@shoezone.com</li>
+                <li><strong>Phone:</strong> +91 123-4567</li>
+                <li><strong>Address:</strong> 123 Shoe Street </li>
+            </ul>
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Cart Section -->
+    <section id="cart-section" class="cart-section">
+        <h2>Your Cart</h2>
+        <p>View and manage your selected items here.</p>
+        <button class="cart-btn">Go to Cart</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 ShoeStore. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
