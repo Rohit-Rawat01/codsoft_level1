@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" class="calculator">
+            <div class="display">
+                <input type="text" id="myinput" readonly>
+            </div>
+            <div class="row">
+                <div class="btn" onclick="btnOne()">1</div>
+                <div class="btn" onclick="btnTwo()">2</div>
+                <div class="btn" onclick="btnThree()">3</div>
+                <div class="btn clear" onclick="clearInput()">C</div>
+            </div>
+            <div class="row">
+                <div class="btn" onclick="btnFour()">4</div>
+                <div class="btn" onclick="btnFive()">5</div>
+                <div class="btn" onclick="btnSix()">6</div>
+                <div class="btn" onclick="btnPlus()">+</div>
+            </div>
+            <div class="row">
+                <div class="btn" onclick="btnSeven()">7</div>
+                <div class="btn" onclick="btnEight()">8</div>
+                <div class="btn" onclick="btnNine()">9</div>
+                <div class="btn" onclick="btnMinus()">-</div>
+            </div>
+            <div class="row">
+                <div class="btn" onclick="btnZero()">0</div>
+                <div class="btn" onclick="btnMultiply()">*</div>
+                <div class="btn" onclick="btnDivide()">/</div>
+                <div class="btn equal" onclick="btnResult()">=</div>
+            </div>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
